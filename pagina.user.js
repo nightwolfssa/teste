@@ -10,8 +10,9 @@
 // ==/UserScript==
 
 function recarrega_pagina(){
-  console.log('VOU RESETAR')
-  window.top.location.reload();
+  if (window.parent !== window) {
+        // Recarregar a página pai
+        window.parent.location.reload();
 
 }
 //setInterval(recarrega_pagina,10000)
