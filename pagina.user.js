@@ -12,4 +12,4 @@
 function recarrega_pagina(){
   console.log('TESTE DEU BOM')
 }
-
+setInterval(recarrega_pagina,10000)
