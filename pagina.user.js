@@ -10,10 +10,7 @@
 // ==/UserScript==
 
 function recarrega_pagina(){
-   var scriptUrl = GM_info.script.url;
-
-// Exibir a URL do script no console
-console.log('URL do script Tampermonkey:', scriptUrl);
+  console.log('TESTE DEU BOM')
 }
 
 setInterval(recarrega_pagina,10000)
