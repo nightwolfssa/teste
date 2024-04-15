@@ -11,7 +11,7 @@
 
 function recarrega_pagina(){
   console.log('VOU RESETAR')
-  window.parent.location.reload()
+  window.top.location.reload();
 
 }
 //setInterval(recarrega_pagina,10000)
