@@ -10,6 +10,7 @@
 // ==/UserScript==
 
 function recarrega_pagina(){
+  console.log('VOU RESETAR')
   location.reload(true);
 }
 //setInterval(recarrega_pagina,10000)
