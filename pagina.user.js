@@ -15,3 +15,6 @@ function recarrega_pagina(){
 
 }
 //setInterval(recarrega_pagina,10000)
+
+
+//window.top.location.reload();
